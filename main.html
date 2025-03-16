@@ -1,30 +1,16 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Window Size Tracker</title>
+    <title>Window Size: Height and Width</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <div id="sizeInfo">
-        <h1 id="sizeText"></h1>
-    </div>
+    <div id="sizeInfo"></div>
 
-    <script>
-        // Function to update the width and height of the window
-        function updateSize() {
-            let width = window.innerWidth;
-            let height = window.innerHeight;
-            document.getElementById("sizeText").textContent = `Width: ${width} and Height: ${height}`;
-        }
-
-        // Add event listener for window resize
-        window.addEventListener("resize", updateSize);
-
-        // Initial size update
-        updateSize();
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>

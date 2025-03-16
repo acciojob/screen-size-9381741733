@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+#sizeInfo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
